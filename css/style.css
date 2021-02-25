@@ -1,0 +1,77 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+body {
+    background: grey;
+}
+.calculator {
+    font-size: 1.5rem;
+    width: 250px;
+    height: 440px;
+    border: solid 1px black;
+    margin: 3rem auto;
+    padding: 1rem;
+    background: rgb(31, 28, 28);
+    color: white;
+    border-radius: 10px;
+}
+.calculatorScreen {
+    text-align: right;
+    padding: 0.5rem 0.2rem;
+    overflow-wrap: break-word;
+    height: 80px;
+    margin-bottom: 1rem;
+    background: rgb(67, 64, 64);
+    border-radius: 3px;
+}
+.calculatorKeyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.numbers,
+.operators,
+.cleaningToolsBox{
+    width: 50px;
+    height: 50px;   
+    font-size: 1rem;
+    margin: 7px 0.5px;
+    background: rgb(52, 54, 55);
+    color: white;
+    border: none;
+    border-radius: 40%;
+    outline: none;
+}
+.numbers:hover,
+.operators:hover,
+.cleaningToolsBox:hover{
+    background: rgb(72, 74, 75);
+}
+
+.calculatorKeyboard button:nth-of-type(18) {order: 1;}
+.calculatorKeyboard button:nth-of-type(19) {order: 2;}
+.calculatorKeyboard button:nth-of-type(20) {order: 3;}
+.calculatorKeyboard button:nth-of-type(11) {order: 4;}
+
+.calculatorKeyboard button:nth-of-type(8)  {order: 5;}
+.calculatorKeyboard button:nth-of-type(9)  {order: 6;}
+.calculatorKeyboard button:nth-of-type(10) {order: 7;}
+.calculatorKeyboard button:nth-of-type(12) {order: 8;}
+
+.calculatorKeyboard button:nth-of-type(5)  {order: 9;}
+.calculatorKeyboard button:nth-of-type(6)  {order: 10;}
+.calculatorKeyboard button:nth-of-type(7)  {order: 11;}
+.calculatorKeyboard button:nth-of-type(13) {order: 12;}
+
+.calculatorKeyboard button:nth-of-type(2)  {order: 13;}
+.calculatorKeyboard button:nth-of-type(3)  {order: 14;}
+.calculatorKeyboard button:nth-of-type(4)  {order: 15;}
+.calculatorKeyboard button:nth-of-type(14) {order: 16;}
+
+.calculatorKeyboard button:nth-of-type(16) {order: 17;}
+.calculatorKeyboard button:nth-of-type(1)  {order: 18;}
+.calculatorKeyboard button:nth-of-type(17) {order: 19;}
+.calculatorKeyboard button:nth-of-type(15) {order: 20;}
+
